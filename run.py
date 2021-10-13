@@ -32,8 +32,8 @@ def main():
 
         # Checking to see if our facts are about birds
         facts = classifier(facts, topic)
-        facts = list(filter(lambda fact: fact[0]['scores'][0] > threshold, facts))
-        facts = list(map(lambda fact: fact[0]['sequence'], facts))
+        facts = list(filter(lambda fact: fact['scores'][0] > threshold, facts))
+        facts = list(map(lambda fact: fact['sequence'], facts))
 
         # Printing results and getting our next prompt
         facts = list(map(lambda fact: 'Bird Fact: ' + fact, facts))
