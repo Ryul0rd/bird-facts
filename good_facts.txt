@@ -8,3 +8,4 @@ Bird Fact: The human ear, in fact, is a machine to hear birds.
 Bird Fact: A bird cannot fly.
 Bird Fact: The first bird to be killed was a black haired crow named Yuigal who was killed by the Spaniard Antonio Rufino in the 9th century BC.
 Bird Fact: Do you know how much heavier a feather is than a bird's body? You guessed it: a feather is heavier than the bird's body.
+Bird Fact: Did you ever wonder why it is called a bird?
