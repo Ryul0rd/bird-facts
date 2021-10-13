@@ -28,7 +28,7 @@ class TextGenerator:
 class PromptGenerator:
     def __init__(self):
         self.facts_in_prompt = 5
-        self.max_new_facts = 6
+        self.max_new_facts = 9
         self.LEAD = 'I know all there is to know about birds. I will tell you some cool stuff about birds.'
         self.CORE_FACTS = [
             'Bird Fact: Did you know that the Sword-billed Hummingbird is the only bird with a bill longer than its body?',
@@ -37,6 +37,9 @@ class PromptGenerator:
             'Bird Fact: Mockingbirds can imitate many sounds, from a squeaking door to a cat meowing.',
             'Bird Fact: Chickens that lay brown eggs have red ear lobes. There is a genetic link between the two.',
             'Bird Fact: Crows have the largest cerebral hemispheres (brains), relative to body size, of any avian family.',
+            'Bird Fact: The human ear, in fact, is a machine to hear birds.',
+            'Bird Fact: A bird\'s head is shaped like a cow\'s head.',
+            'Bird Fact: A bird cannot fly.',
         ]
         self.new_facts = []
 
