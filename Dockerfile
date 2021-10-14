@@ -9,3 +9,6 @@ RUN pip install -r requirements.txt
 
 # 4. Copy files
 COPY . /src
+
+# 5. Start app
+CMD ["python", "/src/run.py"]
