@@ -13,3 +13,4 @@ Bird Fact: Did you notice that every time someone walks into a room, a cockatiel
 Bird Fact: The most common bird species is the chicken.
 Bird Fact: When a male bird mates with a female, the male will give birth to a litter of chicks.
 Bird Fact: There are many kinds of birds, but they are all called "birds".
+Bird Fact: Birds fly.
