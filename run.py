@@ -14,8 +14,6 @@ def main():
     classifier = pipeline('zero-shot-classification', model='facebook/bart-large-mnli')
     topic = 'birds'
 
-    print('test')
-
     prompt = prompt_gen()
     while True:
         # Create our facts
