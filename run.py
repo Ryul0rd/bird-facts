@@ -2,7 +2,7 @@ from helpers import PromptGenerator, TextGenerator
 from transformers import pipeline
 
 def main():
-    threshold = 0.5 # This is how confident our classifier should need to be for a fact to pass
+    threshold = 0.5 # This is how confident our classifier should need to be for a fact to pass.
 
     #checkpoint = 'gpt2'                    # Uses aprox 1 GB RAM
     #checkpoint = 'gpt2-large'              # Uses aprox 6 GB RAM
