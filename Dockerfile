@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 COPY . /src
 
 # 5. Start app
-CMD ["python", "/src/run.py"]
+ENTRYPOINT ["python", "/src/bird-facts.py"]
